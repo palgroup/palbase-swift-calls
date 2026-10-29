@@ -1,0 +1,36 @@
+Palbase SDK License
+
+Copyright (c) 2024-present Pallasite OÜ (Estonian registry code 17348411), Tallinn, Estonia ("Pallasite",
+"we"), the maker of Palbase. All rights reserved.
+
+The Palbase SDK — the compiled libraries, their interface files and the documentation distributed with them
+("the SDK") — is licensed, not sold. Its source code is not part of this distribution.
+
+1. Use. You may use the SDK, free of charge, to develop, test and distribute applications that use Palbase
+   services, and you may redistribute the SDK only as an unmodified, embedded part of such an application.
+   Bundling, minifying, tree-shaking, transpiling or otherwise transforming the SDK by the build tools of
+   such an application, as part of building it, is not a modification under this license, and the notice
+   may be shortened or moved by those tools where they do so to every file they process.
+
+2. Restrictions. You may not:
+   a. distribute the SDK on its own, or as part of a library, framework or SDK of your own;
+   b. modify, decompile, disassemble or otherwise reverse engineer the SDK, or attempt to derive its source
+      code, except to the extent applicable law expressly permits it notwithstanding this restriction;
+   c. remove or alter any notice in the SDK.
+
+3. Ownership. Pallasite keeps all rights in the SDK that this license does not expressly grant.
+
+4. No warranty. The SDK is provided "as is", without warranty of any kind, express or implied, including the
+   warranties of merchantability, fitness for a particular purpose and non-infringement.
+
+5. Limitation of liability. To the extent permitted by applicable law, in no event shall Pallasite be liable
+   for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising
+   from, out of or in connection with the SDK or its use.
+
+6. Termination. This license ends automatically if you break its terms; you must then stop using and
+   distributing the SDK.
+
+7. Governing law and venue. This license, and any dispute arising out of or in connection with it, is governed
+   by the laws of the Republic of Estonia, excluding their conflict-of-laws rules. The courts of Estonia have
+   exclusive jurisdiction, with Harju County Court (Harju Maakohus) in Tallinn as the court of first instance,
+   except where mandatory law gives you the right to bring a claim elsewhere.
