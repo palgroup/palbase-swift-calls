@@ -1,8 +1,8 @@
 # Palbase Calls for iOS
 
 Voice and video calls between the people of an app built on [Palbase](https://palbase.studio): ringing by CallKit and
-PushKit (the lock screen and a closed app too), a direct call's media between its two devices over WebRTC, a group's —
-or a direct call a third person joins — through the project's media server. Apart from
+PushKit (the lock screen and a closed app too), every call's media — one to one or in a group — through Palbase's media
+server (LiveKit); a direct call a third person joins goes on in the same room. Apart from
 [palbase-swift](https://github.com/palgroup/palbase-swift), so an app that makes no calls resolves none of it.
 Distributed as binary XCFrameworks.
 
@@ -12,7 +12,7 @@ Swift Package Manager — in Xcode, *File → Add Package Dependencies…* with 
 or in a `Package.swift`, at the same version as `palbase-swift`:
 
 ```swift
-.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.14.1")
+.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.15.0")
 ```
 
 Link `PalbaseCalls` (the calls, headless) and, for the ready screens, `PalbaseCallsUI`. They bring Palbase's core and
