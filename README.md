@@ -14,7 +14,7 @@ Swift Package Manager — in Xcode, *File → Add Package Dependencies…* with 
 or in a `Package.swift`, at the same version as `palbase-swift`:
 
 ```swift
-.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.16.3")
+.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.16.4")
 ```
 
 Link `PalbaseCalls` to the app. It brings Palbase's core and
@@ -63,4 +63,4 @@ Requires iOS 18 and Xcode 16.3 or newer.
 ## Licence
 
 The Palbase SDK License — see `LICENSE`: free to use in your apps; the SDK is distributed compiled, and its source is
-not part of it (`PalbaseCallsBroadcast`, a subclass of LiveKit's with nothing in it, is the one source file). WebRTC is LiveKit's build and LiveKit's client SDK is LiveKit's, each under its own licence.
+not part of it (`PalbaseCallsBroadcast`, a subclass of LiveKit's with nothing in it, is the one source file). WebRTC is LiveKit's build and LiveKit's client SDK is LiveKit's, each under its own licence; `PalbaseCallsFFI` is LiveKit's Rust FFI library (livekit-uniffi-xcframework, Apache-2.0), LiveKit's own build under the calls' name.
