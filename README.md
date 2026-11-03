@@ -14,7 +14,7 @@ Swift Package Manager — in Xcode, *File → Add Package Dependencies…* with 
 or in a `Package.swift`, at the same version as `palbase-swift`:
 
 ```swift
-.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.16.5")
+.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.16.6")
 ```
 
 Link `PalbaseCalls` to the app. It brings Palbase's core and
