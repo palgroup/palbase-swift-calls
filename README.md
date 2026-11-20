@@ -1,12 +1,14 @@
-# Palbase Calls for iOS
+# Palbase Calls for iOS and macOS
 
 Voice and video calls between the people of an app built on [Palbase](https://palbase.studio): ringing by CallKit and
-PushKit (the lock screen and a closed app too), every call's media — one to one or in a group — through Palbase's media
-server (LiveKit); a direct call a third person joins goes on in the same room; meetings at a place the app names (a
-channel, a conversation) that its people find and join; screen sharing. Palbase gives the calls' state and actions —
-the app draws its own call screens from them. Apart from
-[palbase-swift](https://github.com/palgroup/palbase-swift), so an app that makes no calls resolves none of it.
-Distributed as binary XCFrameworks.
+PushKit on iOS (the lock screen and a closed app too), in-app ringing on macOS, every call's media — one to one or in a
+group — through Palbase's media server (LiveKit); a direct call a third person joins goes on in the same room; meetings
+at a place the app names (a channel, a conversation) that its people find and join; screen sharing. Palbase gives the
+calls' state and actions — the app draws its own call screens from them.
+
+`PalbaseCalls` is now included directly in [palbase-swift](https://github.com/palgroup/palbase-swift) (for both iOS 18+
+and macOS 15+, with zero external dependencies). This package re-exports `PalbaseCalls` from `palbase-swift` for
+compatibility and provides `PalbaseCallsBroadcast` for iOS Broadcast Upload Extensions.
 
 ## Install
 
@@ -14,7 +16,7 @@ Swift Package Manager — in Xcode, *File → Add Package Dependencies…* with 
 or in a `Package.swift`, at the same version as `palbase-swift`:
 
 ```swift
-.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.21.1")
+.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.22.0")
 ```
 
 Link `PalbaseCalls` to the app. It brings Palbase's core and
