@@ -7,8 +7,9 @@ at a place the app names (a channel, a conversation) that its people find and jo
 calls' state and actions — the app draws its own call screens from them.
 
 `PalbaseCalls` is now included directly in [palbase-swift](https://github.com/palgroup/palbase-swift) (for both iOS 18+
-and macOS 15+, with zero external dependencies). This package re-exports `PalbaseCalls` from `palbase-swift` for
-compatibility and provides `PalbaseCallsBroadcast` for iOS Broadcast Upload Extensions.
+and macOS 15+, with zero external dependencies). This package provides `PalbaseCallsBroadcast` alone for iOS Broadcast
+Upload Extensions (so adding both `palbase-swift` and `palbase-swift-calls` to the same Xcode project never causes
+duplicate product GUIDs).
 
 ## Install
 
@@ -16,7 +17,7 @@ Swift Package Manager — in Xcode, *File → Add Package Dependencies…* with 
 or in a `Package.swift`, at the same version as `palbase-swift`:
 
 ```swift
-.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.22.0")
+.package(url: "https://github.com/palgroup/palbase-swift-calls", exact: "0.22.1")
 ```
 
 Link `PalbaseCalls` to the app. It brings Palbase's core and
