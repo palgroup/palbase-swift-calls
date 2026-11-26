@@ -1,5 +1,5 @@
 // swift-tools-version:6.0
-// Palbase's iOS Broadcast Upload Extension handler 0.26.0 — for whole-screen sharing in PalbaseCalls.
+// Palbase's iOS Broadcast Upload Extension handler 0.26.1 — for whole-screen sharing in PalbaseCalls.
 // PalbaseCalls itself is in https://github.com/palgroup/palbase-swift. Built from palbase-swift-src by
 // scripts/xcframework.sh; do not edit here.
 import PackageDescription
